@@ -8,7 +8,7 @@
 #define OUT 0
 
 
-int is_new_word(prev) {
+int is_new_word(int prev) {
 	if (prev == IN)
 		return 1;
 	return 0;
